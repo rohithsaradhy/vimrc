@@ -49,6 +49,8 @@ set history=500
 "Setting numbering and relative numbering
 set number
 set relativenumber
+"Setting NerdTree Shortcut to ctrl-n
+map <silent> <C-n> :NERDTreeFocus<CR>
 " Enable filetype plugins
 filetype plugin on
 filetype indent on
